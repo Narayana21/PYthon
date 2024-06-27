@@ -3,7 +3,7 @@ def func(n):
 
 
 numbers=[-1,2,3,4,-8,-9]
-m=map(func,numbers)
+m=map(lambda x:x>0,numbers)
 l=(list(m))
 print(m)
 print(l)

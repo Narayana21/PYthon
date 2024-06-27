@@ -6,6 +6,6 @@ print("Factorial of",num," is",factorial(num))
 
 
 # factorial of given number using inbuilt function
-import math
+from math import factorial
 num = 5
-print("Factorial of", num, "is",math.factorial(num))
+print("Factorial of", num, "is",factorial(num))
